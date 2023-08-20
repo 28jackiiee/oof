@@ -1,0 +1,48 @@
+/* PortfolioPage.css */
+.portfolio-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    padding: 70px;
+  }
+  
+  .portfolio-item {
+    background-color: #5c5c5c;
+    color: #504949;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(61, 61, 61, 0.3);
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+
+  .portfolio-item:hover {
+    transform: scale(1.01); /* Scale up the item on hover */
+  }
+
+  .portfolio-item-image {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+  }
+  
+  .portfolio-item-title {
+    position: relative;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    flex: 1;
+  }
+  
+  .portfolio-item-description {
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+  }
